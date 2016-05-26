@@ -1,0 +1,196 @@
+.xui-header {
+	background: #f04c29;
+	height: 60px;
+}
+
+.xui-wrapper {
+	height: 100%;
+	padding: 0 20px;
+}
+
+.xui-title {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 60px;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+	float: left;
+	color: #FFFFFF;
+}
+
+
+/**
+ * 文章标题样式 begin
+ */
+
+.xui-article-title {}
+
+.xui-article-title a {
+	font-size: 20px;
+	color: #424242;
+}
+
+.xui-article-title a:hover {
+	color: #f04c29;
+	text-decoration:none;
+}
+
+/**
+ * 文章标题样式 end
+ */
+.xui-article-content {
+	display: block;
+}
+
+.xui-article-content-preview{
+	font-size: 15px;
+	margin: 5px 0;
+	color: #828282;
+}
+
+.xui-footer {
+	border-top: 1px solid #e8e8e8;
+	background: #FFFFFF;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+.xui-footer-col {
+	float: right;
+	padding: 8px 0;
+}
+
+.xui-home-content{
+	max-width: 75%;
+}
+
+.xui-home-right-nav{
+	float: right;
+	width: 25%;
+	min-width: 120px;
+	position:absolute;
+	right: 0px;
+	background: #E8E8E8;
+}
+
+.xui-right-nav-list-title{
+	padding: 5px 15px;
+	font-size: 16px;
+	color: #800080;
+}
+
+.xui-right-nav-list{
+	list-style: none;
+}
+
+.xui-right-nav-list li{
+	margin-bottom: 2px;
+	padding: 2px;
+	font-size: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-right: 20px;
+	color: #2A7AE2;
+}
+
+.xui-social-media-list {
+	list-style: none;
+}
+
+.xui-social-media-list li {
+	float: left;
+	margin: 0 10px;
+}
+
+.xui-post-list {
+	margin-left: 0;
+	list-style: none;
+}
+
+.xui-post-list > li {
+	background: #f2f2f2;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+
+/**
+ * 更新默认的显示样式
+ */
+
+.site-nav .page-link {
+	color: #FFFFFF;
+	line-height: 1.5;
+}
+
+.xui-post-meta {
+	font-size: 14px;
+	color: #828282;
+}
+
+.xui-post-link {
+	display: block;
+	font-size: 24px;
+}
+
+.xui-post-title {
+	font-size: 25px;
+	letter-spacing: -1px;
+	line-height: 1;
+	color: #424242;
+}
+
+.xui-post-right-nav{
+	width: 10%;
+	max-width: 100px;
+}
+
+.xui-post-content {
+	margin-bottom: 30px;
+	float: left;
+}
+
+.xui-post-content h2 {
+	font-size: 32px;
+}
+
+@media screen and (max-width: 800px) {
+	.xui-post-content h2 {
+		font-size: 28px;
+	}
+}
+
+.xui-post-content h3 {
+	font-size: 26px;
+}
+
+@media screen and (max-width: 800px) {
+	.xui-post-content h3 {
+		font-size: 22px;
+	}
+}
+
+.xui-post-content h4 {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+	.xui-post-content h4 {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.xui-post-title {
+		font-size: 22px;
+	}
+}
+
+.xui-404{
+	width: 100%;
+	text-align: center;
+	color: #424242;
+	font-size: 16px;
+}

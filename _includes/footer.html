@@ -1,0 +1,17 @@
+<footer class="xui-footer">
+	<div class="xui-wrapper">
+		<div class="xui-footer-col">
+			<ul class="xui-social-media-list">
+				{% if site.email %}
+				<li>
+					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+				</li>
+				{% endif %} {% if site.github_username %}
+				<li>
+					{% include icon-github.html username=site.github_username %}
+				</li>
+				{% endif %}
+			</ul>
+		</div>
+	</div>
+</footer>
